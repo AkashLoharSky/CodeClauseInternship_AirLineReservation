@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FlightList">
+  <grid id="27dc6" binding="flightlistpnl" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="-2" y="1" width="577" height="419"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <hspacer id="e9eae">
+        <constraints border-constraint="East"/>
+      </hspacer>
+      <vspacer id="bb04a">
+        <constraints border-constraint="North"/>
+      </vspacer>
+      <vspacer id="358d4">
+        <constraints border-constraint="South"/>
+      </vspacer>
+      <scrollpane id="5e241">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <font name="Arial Black" size="18" style="1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ec207" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties>
+              <alignmentX value="0.5"/>
+              <alignmentY value="0.5"/>
+              <autoCreateRowSorter value="false"/>
+              <autoResizeMode value="4"/>
+              <enabled value="true"/>
+              <focusable value="false"/>
+              <font name="Bookshelf Symbol 7" size="13"/>
+              <intercellSpacing width="3" height="3"/>
+              <rowHeight value="30"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+  <inspectionSuppressions>
+    <suppress inspection="NoLabelFor" id="d413d"/>
+  </inspectionSuppressions>
+</form>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Payment">
+  <grid id="27dc6" binding="payment" layout-manager="GridLayoutManager" row-count="19" column-count="23" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="605" height="507"/>
+    </constraints>
+    <properties>
+      <background color="-16316893"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="bd37b" class="javax.swing.JTextField" binding="nameIn">
+        <constraints>
+          <grid row="14" column="6" row-span="1" col-span="11" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Nirmala UI" size="14" style="1"/>
+        </properties>
+      </component>
+      <component id="72f70" class="javax.swing.JTextField" binding="cardIn">
+        <constraints>
+          <grid row="9" column="6" row-span="1" col-span="11" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Dialog" size="16" style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="69c7b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="19" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Ebrima" size="24" style="1"/>
+          <foreground color="-1116417"/>
+          <text value="Payment Details"/>
+        </properties>
+      </component>
+      <component id="61b78" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft New Tai Lue" size="13" style="1"/>
+          <foreground color="-1116417"/>
+          <labelFor value="21aaa"/>
+          <text value="CVV"/>
+        </properties>
+      </component>
+      <component id="eace7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft New Tai Lue" size="13" style="1"/>
+          <foreground color="-1116417"/>
+          <text value="NAME"/>
+        </properties>
+      </component>
+      <component id="bbad9" class="javax.swing.JButton" binding="MAKEPAYMENTButton" default-binding="true">
+        <constraints>
+          <grid row="16" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="100" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="MAKE PAYMENT"/>
+        </properties>
+      </component>
+      <hspacer id="d4b7c">
+        <constraints>
+          <grid row="11" column="18" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="a855b">
+        <constraints>
+          <grid row="11" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="19654">
+        <constraints>
+          <grid row="17" column="16" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="7c4e2">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="10" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="a3d28">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="10" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="d71eb">
+        <constraints>
+          <grid row="12" column="9" row-span="1" col-span="7" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="a4714">
+        <constraints>
+          <grid row="11" column="19" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="12c76">
+        <constraints>
+          <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="d8fe5">
+        <constraints>
+          <grid row="18" column="16" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="21aaa" class="javax.swing.JPasswordField" binding="cvvIn">
+        <constraints>
+          <grid row="11" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <hspacer id="2883">
+        <constraints>
+          <grid row="11" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="f95ec">
+        <constraints>
+          <grid row="11" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="ef038">
+        <constraints>
+          <grid row="11" column="20" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="cb9c4">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="886fe" class="javax.swing.JButton" binding="CANCELButton" default-binding="true">
+        <constraints>
+          <grid row="16" column="8" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14" style="1"/>
+          <text value="CANCEL"/>
+        </properties>
+      </component>
+      <hspacer id="3d773">
+        <constraints>
+          <grid row="11" column="17" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="20648">
+        <constraints>
+          <grid row="11" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="49df6">
+        <constraints>
+          <grid row="11" column="21" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="72286">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="8f2c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft New Tai Lue" size="13" style="1"/>
+          <foreground color="-1116417"/>
+          <labelFor value="21aaa"/>
+          <text value="CARD NO."/>
+        </properties>
+      </component>
+      <component id="524eb" class="javax.swing.JLabel" binding="details">
+        <constraints>
+          <grid row="4" column="6" row-span="1" col-span="11" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16711707"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <vspacer id="ee5ae">
+        <constraints>
+          <grid row="7" column="7" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="3e625">
+        <constraints>
+          <grid row="15" column="7" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="2feff" class="javax.swing.JLabel" binding="tno">
+        <constraints>
+          <grid row="6" column="6" row-span="1" col-span="11" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="16" style="1"/>
+          <foreground color="-16711899"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <vspacer id="b78a9">
+        <constraints>
+          <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="5269e" class="javax.swing.JLabel" binding="price">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="11" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bookshelf Symbol 7" size="14" style="1"/>
+          <foreground color="-512"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <hspacer id="56b6c">
+        <constraints>
+          <grid row="11" column="22" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="d5f94">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+  <inspectionSuppressions>
+    <suppress inspection="NoLabelFor" id="bd37b"/>
+  </inspectionSuppressions>
+</form>
